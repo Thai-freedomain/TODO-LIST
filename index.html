@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tự luyện JS</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h2>To-do List</h2>
+        <form action="#" name="form-todolist" id="form-todolist">
+            <div class="form-group">
+                <label for="info">What's your to do?</label><br>
+                <input type="text" id="info" name="info" placeholder="Enter your work!" class="form-control"><br>
+                <span id="mesage_error"></span><br>
+                <input type="text" id="time" name="time" placeholder="Enter your time!" class="form-control"><br>
+                <input type="button" id="btn_add"  onclick="add_todo()" name="btn_add" value="Add">
+            </div>
+        </form>
+        
+    </div>
+    <table id="list_todo"></table>
+    <div id="note"></div>
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>
