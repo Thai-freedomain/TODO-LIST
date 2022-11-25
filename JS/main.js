@@ -4,6 +4,8 @@ var $ = function (id) {
     return document.getElementById(id)
 }
 
+console.log(1)
+
 //hàm validate
 function validate() {
     var name = document.querySelector("#info").value;
